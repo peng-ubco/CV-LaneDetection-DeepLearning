@@ -5,7 +5,7 @@ This project is a semantic segmentation project for detecting lanes. The dataset
 
 ## Methods: 
 This projects studies wo approaches for lane detection:
-1. A simple UNet network which has a simple encoder-decoder design was used to extract segmentation masks for the lanes. 
+1. A simple [UNet network](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) which has a simple encoder-decoder design was used to extract segmentation masks for the lanes. 
 2. A transfer learning method. The effect of using two pretrained networks ResNet34 and ResNeXt50 as the UNet’s encoder was measured. These two networks have been trained on the ImageNet dataset. 
 
 ## Results: 
