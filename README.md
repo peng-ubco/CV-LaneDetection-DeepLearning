@@ -13,3 +13,11 @@ While simple UNet were achieving meanIoU of 0.70, UNet with pretrained encoder o
 
 ## Conclusions:
 The meanIoU improves significantly using transfer learning method. Moreover, in terms of computation complexity, transfer learning can accelerate the training procedure. The results demonstrate that this structure could be used as an efficient lane detector unit for further uses in autonomous vehicles.
+
+## Demonstrations:
+![alt text](res1.png)
+![alt text](res2.png)
+![alt text](res3.png)
+
+
+
